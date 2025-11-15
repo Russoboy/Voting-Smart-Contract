@@ -50,7 +50,8 @@ contract USElection {
         totalVotes = candidates[winnerID].voteCount;
     }
 }
-
+//Quick Bug Fix:Initialize winnerID = 1 (assume first candidate by default), and start loop from i = 2.
+//since candidates[0] does not exist
 
 
 
